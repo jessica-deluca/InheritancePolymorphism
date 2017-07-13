@@ -10,6 +10,8 @@ namespace InheritancePolymorphism
     {
         static void Main(string[] args)
         {
+
+
         }
     }
 }
