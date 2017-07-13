@@ -45,9 +45,9 @@ namespace InheritancePolymorphism
             distanceTraveled = 0.0d;
         }
 
-        public virtual void Move()
+        public virtual void Move() // virtual means whoever inherits from this class can override these methods just for that class
         {
-            distanceTraveled += movementSpeed;
+            distanceTraveled += movementSpeed; // we're setting the distancedTraveled equal to the distrancedTraveled plus movementSpeed
         }
 
         public virtual string GetDistanceTraveled()
